@@ -1,24 +1,30 @@
-# Overview
+## FOURTOR,  E-Formula Student Team at Hanyang Univ ERICA campus
 <p align="center">
 <img src="https://github.com/HAMA-DL-dev/FT-22/blob/64bb92614b4bfcdb47568e86b827a70eea782b26/assets/2022%20team%20FOURTOR.jpg" width="640" height="458">
 </p>
 
 This repository describes SW and motor system of E-formula of FOURTOR, FT-22 <br>
-The repo contains code, image and configuration file related to above
+The repo contains code, image and configuration file related to above <br>
+For more description, you can visit our team page  <br>
 
-# System
+## Link
+- [Team page](https://cafe.naver.com/fourinwheelmotor)
+- [Instagram](https://www.instagram.com/fourtor_hanyang_erica/)
+- [Notion for SW team](https://www.notion.so/ECU-for-2022-KSAE-58f490e7761d48bcbadd27ff839be4b7)
+
+## System
 
 <p align="center">
 <img src="https://github.com/HAMA-DL-dev/FT-22/blob/e5e4e89bdf81dd31018656f4f53cc7d268217e8e/assets/system%20diagram.jpg" width="585" height="960">
 </p>
 
-## HW 
+### HW 
 - motor : ME1302 PMAC motor
 - motor controller : SEVCON GEN4 72V/80V 720A
 - microcontroller : STM32F4 NUCLEO-F446RE, Arduino Uno
 - ETC : MCP2515, NTC, ST-22
 
-## SW
+### SW
 ``` 
 ├── STM32F4/
 |   ├── CAN
@@ -35,7 +41,7 @@ The repo contains code, image and configuration file related to above
     └── LTC6811
     
 ```
-# BMS : Battery Management System
+## BMS : Battery Management System
 
 <img src="https://github.com/HAMA-DL-dev/FT-22/blob/e5e4e89bdf81dd31018656f4f53cc7d268217e8e/assets/voltage%20output.jpg" width="480" height="408">
 
@@ -49,7 +55,7 @@ The conditions under which whole electrical systme is cut off are as follows
 3. Over current at parallel line of battery cell
 ```
 
-# DVT software 
+## DVT software 
 ![DVT software](https://github.com/HAMA-DL-dev/FT-22/blob/e5e4e89bdf81dd31018656f4f53cc7d268217e8e/assets/DVT%20software.jpg)
 
 Our driving system consists of motor and motor controller <br>
