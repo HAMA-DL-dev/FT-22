@@ -1,0 +1,6 @@
+wifi_ubidots.c:28:6:my_itoa	32	static
+wifi_ubidots.c:39:6:FloatToString	40	static
+wifi_ubidots.c:81:6:WifiSetup	424	static
+wifi_ubidots.c:114:6:OpenUbidots	432	static
+wifi_ubidots.c:138:6:CloseUbidots	416	static
+wifi_ubidots.c:158:6:WifiUbidots	2576	static
