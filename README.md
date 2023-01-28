@@ -27,18 +27,27 @@ For more description, you can visit our team page  <br>
 ### SW
 ``` 
 ├── STM32F4/
-|   ├── CAN
-|   |   ├── CANopen
-|   |   └── CANSPI
-|   ├── UART
-|   └── I2C
-└── Arduino/
-    ├── BMS (main.c)
-    ├── Linduino
-    ├── LT_I2C
-    ├── LT_SPI
-    ├── LTC681x
-    └── LTC6811
+|   ├── 22FOURTOR.ioc
+|   ├── Core
+|   |   ├── Inc
+|   |   |   ├── CANSPI.h
+|   |   |   ├── MCP2515.h
+|   |   |   ├── wifi_ubidots.h
+|   |   |   ├── i2c.h
+|   |   |   └── i2c-lcd.h
+|   |   └── Src
+|   |       ├── main.c
+|   |       └── (source codes corresponding to header file with extension '.c')
+|   ├── Drivers
+|   └── Debug
+└── BMS/
+    ├── main.c
+    └── libraries
+        ├── Linduino
+        ├── LT_I2C
+        ├── LT_SPI
+        ├── LTC681x
+        └── LTC6811
     
 ```
 ## BMS : Battery Management System
